@@ -1,5 +1,7 @@
+// Global Variable
 inventory = newInventory();
 
+// Function Definitions
 function newImage(url, left, bottom){
     let object = document.createElement('img')
     object.src = url
@@ -41,6 +43,7 @@ function addInventoryItem(item, url){
     inventory.append(inventoryItem);
 }
 
+// Invoke Functions
 newImage('assets/green-character.gif', 100, 250)
 newImage('assets/tree.png', 200, 450)
 newImage('assets/pillar.png', 350, 250)
